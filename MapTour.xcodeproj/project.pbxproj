@@ -22,6 +22,7 @@
 		F3BD54FC18399E1A002DCF1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD54DB18399E1A002DCF1F /* UIKit.framework */; };
 		F3BD550418399E1A002DCF1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3BD550218399E1A002DCF1F /* InfoPlist.strings */; };
 		F3BD550618399E1A002DCF1F /* MapTourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BD550518399E1A002DCF1F /* MapTourTests.m */; };
+		F3BD551018399EFD002DCF1F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD550F18399EFD002DCF1F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F3BD550118399E1A002DCF1F /* MapTourTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapTourTests-Info.plist"; sourceTree = "<group>"; };
 		F3BD550318399E1A002DCF1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3BD550518399E1A002DCF1F /* MapTourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTourTests.m; sourceTree = "<group>"; };
+		F3BD550F18399EFD002DCF1F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BD551018399EFD002DCF1F /* MapKit.framework in Frameworks */,
 				F3BD54DA18399E1A002DCF1F /* CoreGraphics.framework in Frameworks */,
 				F3BD54DC18399E1A002DCF1F /* UIKit.framework in Frameworks */,
 				F3BD54D818399E1A002DCF1F /* Foundation.framework in Frameworks */,
@@ -103,6 +106,7 @@
 		F3BD54D618399E1A002DCF1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD550F18399EFD002DCF1F /* MapKit.framework */,
 				F3BD54D718399E1A002DCF1F /* Foundation.framework */,
 				F3BD54D918399E1A002DCF1F /* CoreGraphics.framework */,
 				F3BD54DB18399E1A002DCF1F /* UIKit.framework */,
@@ -396,6 +400,7 @@
 				GCC_PREFIX_HEADER = "MapTour/MapTour-Prefix.pch";
 				INFOPLIST_FILE = "MapTour/MapTour-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,6 +414,7 @@
 				GCC_PREFIX_HEADER = "MapTour/MapTour-Prefix.pch";
 				INFOPLIST_FILE = "MapTour/MapTour-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
